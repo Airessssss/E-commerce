@@ -1,0 +1,58 @@
+{
+  "project_name": "E-Commerce Final Project",
+  "data_type": "Product Catalog",
+  "last_updated": "2025-11-20",
+  "products": [
+    {
+      "id": "PROD001",
+      "name": "Luxury Leather Handbag",
+      "category": "Bags",
+      "brand": "Louis Vuitton",
+      "price": 1999.99,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "is_featured": true,
+      "description": "A premium leather handbag with gold-plated hardware, perfect for daily use or special occasions.",
+      "details": {
+        "material": "Calfskin Leather",
+        "dimensions": "30cm x 15cm x 25cm",
+        "weight": "1.2kg"
+      },
+      "image_url": "image/Louis Vuitton/example-bag-1.jpg"
+    },
+    {
+      "id": "PROD002",
+      "name": "Modern Minimalist Sneaker",
+      "category": "Shoes",
+      "brand": "Adidas",
+      "price": 129.50,
+      "currency": "USD",
+      "stock_quantity": 50,
+      "is_featured": false,
+      "description": "Lightweight, comfortable sneaker designed for active users. Made with recycled materials.",
+      "details": {
+        "material": "Recycled Canvas",
+        "sizes_available": ["7", "8", "9", "10", "11"],
+        "color": "White"
+      },
+      "image_url": "image/Shoes/sneaker-1.jpg"
+    },
+    {
+      "id": "PROD003",
+      "name": "Essential Black T-Shirt",
+      "category": "Apparel",
+      "brand": "Zara",
+      "price": 25.00,
+      "currency": "USD",
+      "stock_quantity": 200,
+      "is_featured": true,
+      "description": "Classic, comfortable t-shirt made from 100% organic cotton.",
+      "details": {
+        "material": "Organic Cotton",
+        "fit": "Regular",
+        "sizes_available": ["S", "M", "L", "XL"]
+      },
+      "image_url": "image/Apparel/tshirt-black.jpg"
+    }
+  ]
+}
